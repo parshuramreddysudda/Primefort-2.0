@@ -25,6 +25,9 @@ TABLE OF CONTENT
 9. Scroll to Top
 10.clients
 11. Testmonials
+12.contact
+13.progress bar
+14.Team
 
 
 
@@ -1522,4 +1525,249 @@ f) Overlays
 
 .owl-item.center > div p {
     color: #fff;
+}
+
+/*
+12. Contact
+*/
+
+.contact-form input {
+    font-weight: 500 !important;
+    border-radius: 5px;
+    font-size: 13px;
+    border: 1px solid #f6f7f8;
+    background: #f6f7f8;
+    color: #777 !important;
+    outline: none;
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.contact-form textarea {
+    font-weight: 500 !important;
+    border-radius: 5px;
+    font-size: 13px;
+    border: 1px solid #f6f7f8;
+    background: #f6f7f8;
+    color: #777 !important;
+    outline: none;
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0px;
+    margin-bottom: 5px;
+    min-height: 200px;
+    overflow: hidden;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    background: #fff;
+    border-color: #ececec;
+}
+
+.contact-form button {
+    display: inline-block;
+    background: #111;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease;
+    margin-top: 15px;
+}
+
+.contact-form button:hover {
+    background: #fff;
+    color:#333;
+}
+
+/*INFO*/
+.contact-info-box {
+    padding: 0px 15px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+
+.contact-info-section {
+    border-bottom: 1px solid #ececec;
+    padding: 25px 0px;
+    margin-bottom: 0px;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+
+.contact-info-section i {
+    width: 60px;
+    height: 60px;
+    padding-top: 17px;
+    border-radius: 50%;
+    background: #333;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 5px;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
+.contact-info-section:hover .contact-info-section i {
+   background: #fff;
+   color:#333;
+}
+
+.contact-info-section h4 {
+    color: #111;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.contact-info-section p {
+    color: #999;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+/*
+13. Progress Bars
+*/
+.progress-text {
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.custom-progress {
+    height: 5px;
+    border-radius: 50px;
+    box-shadow: none;
+}
+
+.custom-bar {
+    height: 100%;
+    background-color: #d21e2b;
+    box-shadow: none;
+}
+
+.custom-bar-dark {
+    height: 100%;
+    background-color: #111;
+    box-shadow: none;
+}
+
+.progress-medium {
+    height: 8px;
+    border-radius: 50px;
+    box-shadow: none;
+}
+
+.progress-bold {
+    height: 12px;
+    border-radius: 50px;
+    box-shadow: none;
+}
+/*
+14. Team
+*/
+.team-member {
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    margin: 20px 0px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.team-member:hover {
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.28);
+
+}
+
+.team-member-img {
+    width: 100%;
+    height: auto;
+}
+
+.team-member-img img {
+    width: 100%;
+}
+
+.team-member-text {
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.team-member-text h4 {
+    color: #111;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    -webkit-transition-duration: .6s;
+    transition-duration: .6s;
+}
+
+.team-member:hover .team-member-text h4 {
+    color: #d21e2b;
+}
+
+.team-member-text span {
+    color: #d21e2b;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.team-member-text p {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 170%;
+    margin-top: 20px;
+}
+
+.team-member-text ul {
+    margin-top: 15px;
+    padding: 8px 0px 8px 0px;
+}
+
+.team-member-text ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.team-member-text ul li a i {
+    color: #555;
+    font-size: 17px;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+}
+
+.team-member-text ul li a i:hover {
+    color: #d21e2b;
+}
+
+
+@media screen and (max-width: 994px) {
+    .team-member-text {
+        padding: 20px 10px;
+    }
 }
