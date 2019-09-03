@@ -28,7 +28,8 @@ TABLE OF CONTENT
 12.contact
 13.progress bar
 14.Team
-
+15.tabs
+16.feature box
 
 
 
@@ -52,7 +53,6 @@ TABLE OF CONTENT
     padding: 90px 0px 90px 0px;
     background-color: #fff;
 }
-
 .section-block-grey {
     padding: 90px 0px 90px 0px;
     background-color: #f9f9f9;
@@ -68,7 +68,7 @@ TABLE OF CONTENT
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% 50%;
-    padding: 90px 0px 90px 0px;
+    padding: 90px 0 90px 0;
 }
 
 .section-block-bg {
@@ -1770,4 +1770,268 @@ f) Overlays
     .team-member-text {
         padding: 20px 10px;
     }
+}
+
+
+/*
+15. Tabs
+*/
+
+/*
+ Default Tabs
+*/
+.default-tabs .tabs {
+    position: relative;
+}
+
+.default-tabs .tabs .tab-menu li {
+    background: #f7f7f7;
+    display: inline-block;
+    text-align: center;
+}
+
+.default-tabs .tabs .tab-menu li a {
+    color: #111;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 18px 24px;
+    text-decoration: none;
+}
+
+.default-tabs .tabs .tab-menu li a i {
+    color: #d21e2b;
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.default-tabs .tabs .tab-menu li:hover a, .default-tabs .tabs .tabs li:hover i {
+    color: darkslateblue;
+}
+
+.default-tabs .tab-menu .active-tab a, .default-tabs .active-tab a i {
+    color: darkslateblue !important;
+}
+
+
+.default-tabs .tab-menu {
+    margin-bottom: 4px;
+}
+
+@media screen and (max-width: 1200px) {
+    .default-tabs .tabs .tab-menu li {
+        background: #f7f7f7;
+        display: inline-block;
+        text-align: center;
+        width: auto;
+    }
+
+    .default-tabs .tabs .tab-menu li a {
+        color: #111;
+        display: block;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 18px 24px;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .default-tabs .tabs .tab-menu li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+
+    .default-tabs .tab-menu .tabs li a {
+        display: block;
+        padding: 18px 14px;
+    }
+
+    .default-tabs .tab-menu .tabs li i {
+        font-size: 25px;
+    }
+}
+
+.tab-body {
+    display: block;
+    position: relative;
+    padding: 25px;
+    background: #f7f7f7 !important;
+}
+
+.tab-body h2 {
+    font-size: 30px;
+    color: #111;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.tab-body h3 {
+    font-size: 25px;
+    color: #111;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.tab-body h4 {
+    font-size: 20px;
+    color: #111;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.tab-body h5 {
+    font-size: 15px;
+    color: #111;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.tab-body h2:after, .tab-body h3:after, .tab-body h4:after, .tab-body h5:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #d21e2b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tab-body p {
+    font-size: 15px;
+    color: #999;
+    line-height: 1.7;
+    font-weight: 400;
+    margin: 5px;
+}
+
+/*
+ Icon Tabs
+*/
+.big-icon-tabs .tabs {
+    position: relative;
+}
+
+.big-icon-tabs .tabs .tab-menu li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.big-icon-tabs .tabs .tab-menu li:last-child {
+    margin-right: 0px;
+}
+
+.big-icon-tabs .tabs .tab-menu li a {
+    background: #ececec;
+    color: #111;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 18px 24px;
+    text-decoration: none;
+    border-top: 2px solid #ececec;
+}
+
+.big-icon-tabs .tabs .tab-menu li a i {
+    color: #d21e2b;
+    display: block;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.big-icon-tabs .tabs .tab-menu li:hover a, .big-icon-tabs .tabs .tabs li:hover i {
+    color: #d21e2b;
+}
+
+.big-icon-tabs .tab-menu .active-tab a, .big-icon-tabs .active-tab a i {
+    border-color: #d21e2b !important;
+}
+
+.big-icon-tabs .tab-menu .active-tab a {
+    background: #f7f7f7 !important;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .big-icon-tabs .tabs .tab-menu li {
+        background: #f7f7f7;
+        display: inline-block;
+        text-align: center;
+        width: auto;
+    }
+
+    .big-icon-tabs .tabs .tab-menu li a {
+        color: #111;
+        display: block;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 18px 24px;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .big-icon-tabs .tabs .tab-menu li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+
+    .big-icon-tabs .tab-menu .tabs li a {
+        display: block;
+    }
+
+    .big-icon-tabs .tab-menu .tabs li i {
+        font-size: 25px;
+    }
+}
+/*
+	16.Feature box
+*/
+.feature-box-long {
+    position: relative;
+    text-align: center;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    background: #fff;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    margin: 15px 0px;
+    padding: 30px 40px 35px 40px;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+.feature-box-long:hover {
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.29);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.29);
+    box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.29);
+}
+
+.feature-box-long h3 {
+    font-size: 19px;
+    font-weight: 500;
+    color: #111;
+    margin: 25px 0px 15px 0px;
+}
+
+.feature-box-long i {
+    color: #111;
+    font-size: 65px;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+.feature-box-long p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #aaa;
 }

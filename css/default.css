@@ -10,7 +10,7 @@ TABLE OF CONTENT
 5. Overflow
 6. Clearfix
 7. Visibility
- 
+
 ==============================================
 [END] TABLE OF CONTENT
 ==============================================
@@ -24,7 +24,7 @@ TABLE OF CONTENT
 -------------------------------------------*/
 html, body {
   font-family: 'Fira Sans', sans-serif;
-  color: #d21e2b;        
+  color: #111;        
   height: 100%;
   margin: 0;
   padding: 0;
@@ -64,12 +64,12 @@ img{
 	max-width: 100%;
 	height: auto;
 	-webkit-transition-duration: .3s;
-	transition-duration: .3s;		
+	transition-duration: .3s;
 }
 a{
   color: #111;
 	-webkit-transition-duration: .3s;
-	transition-duration: .3s;	
+	transition-duration: .3s;
 }
 
 a:active, a:hover, a:focus {
@@ -82,7 +82,7 @@ button{
   outline: 0 none;
   border: none;
   -webkit-transition-duration: .3s;
-  transition-duration: .3s;  
+  transition-duration: .3s;
 }
 
 iframe{
@@ -152,7 +152,7 @@ li{
   height: 100%;
   vertical-align: middle;
   margin-right: -4px;
-  border-radius: 10px;  
+  border-radius: 10px;
   z-index: 999999;
 }
 
@@ -220,7 +220,7 @@ li{
 @media screen and (max-width:767px) {
   .mt-15-xs{
     margin-top: 15px;
-  } 
+  }
 }
 
 /*------------------
@@ -264,7 +264,7 @@ li{
 @media screen and (max-width:767px) {
   .mb-15-xs{
     margin-bottom: 15px;
-  } 
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -288,7 +288,7 @@ li{
 @media screen and (max-width:767px) {
   .mr-30-md{
     margin-right: 0px;
-  } 
+  }
 }
 
 
