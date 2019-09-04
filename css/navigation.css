@@ -87,7 +87,7 @@
 }
 @media (min-width: 991px) {
   .nav-header {
-    height: 95px;
+    height: 75px;
     display: flex;
     align-items: center;
   }
@@ -1014,7 +1014,7 @@
 
   #nav-transparent .navigation{
     width: 100%;
-    height: 95px;
+    height: 75px;
     display: table;
     position: relative;
     font-family: inherit;
@@ -1095,7 +1095,7 @@
   }
 
   #nav-transparent .nav-white-bg .nav-menu > li > a {
-    height: 95px;
+    height: 75px;
     padding: 0 16px 0 16px;
     display: flex;
     align-items: center;
@@ -1126,6 +1126,7 @@
     -o-transition: all 0.3s ease;
   }
   #light_logo{
+      margin-top: 20%;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
