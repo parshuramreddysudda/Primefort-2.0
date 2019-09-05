@@ -1043,7 +1043,7 @@
     text-decoration: none;
     font-size: 13px;
     font-weight: 600;
-    color: #fff;
+    color: #111;
     -webkit-transition: color 0.3s, background 0.3s;
     transition: color 0.3s, background 0.3s;
   }
