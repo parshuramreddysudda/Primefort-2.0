@@ -106,15 +106,16 @@
   color: #111;
   line-height: 1.4;
   font-weight: 600;
+  
 }
 
 @media screen and (max-width:767px) {
   .slider-content h2{
     font-size: 25px;
-    color: #fff;
+    color: #111;
     line-height: 1.4;
     font-weight: 600;
-  }
+
 }
 
 .slider-content h3{
