@@ -31,7 +31,8 @@
 
   <!-- Fonts Google -->
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
+	
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@5.10.7/dist/typeit.js"></script>
 </head>
 
 <body>
@@ -48,7 +49,25 @@
   <!-- Page Title START -->
   <div class="page-title-section" style="background-image: url(images/bgmain.jpg);">
     <div class="container">
-      <h1>About Us</h1>
+      <h1 id="typeLoopContact">  About Us
+	                       <script>
+
+                            window.instance =   new TypeIt('#typeLoopContact', {
+        speed: 70,
+        strings: [
+            'Edited one '
+
+        ],
+        breakLines: false,
+        showCursor: false
+
+
+
+
+      }
+	)
+    </script>
+</h1>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about us.html">ABOUT US</a></li>
@@ -183,7 +202,7 @@
           <div class="team-box-2-image">
               <img src="images\team\philip.png" alt="member">
             <div class="team-box-2-overlay">
-              <div class="team-box-2-name">
+              <div class="team-box-2-name" href="philip.html">
               <a href="philip.html">  <h4>Philip Joshua</h4></a>
                 <h5>Director-Business</h5>
               </div>
@@ -201,7 +220,7 @@
       <div class="col-lg-4 col-md-6 col-12">
         <div class="team-box-2">
           <div class="team-box-2-image">
-          <img src="http://via.placeholder.com/255x295" alt="member">
+          <img src="images\team\parshuram.jpg" alt="member">
             <div class="team-box-2-overlay">
               <div class="team-box-2-name">
                   <a href="rony das.html"><h4>Rony Das</h4></a>
@@ -241,7 +260,7 @@
       <div class="col-lg-4 col-md-6 col-12">
         <div class="team-box-2">
           <div class="team-box-2-image">
-              <img src="images\team\raman1.jpg" alt="member">
+              <img src="images\team\parshuram.jpg" alt="member">
             <div class="team-box-2-overlay">
               <div class="team-box-2-name">
                 <a href="Parshuram.html"><h4>Parshuram</h4></a>
