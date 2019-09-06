@@ -30,6 +30,7 @@ TABLE OF CONTENT
 14.Team
 15.tabs
 16.feature box
+17.service box
 
 
 
@@ -44,7 +45,7 @@ TABLE OF CONTENT
 /* logo */
 
 
- 
+
 .logo {
   height: 27px;
     width: 121px;
@@ -58,7 +59,8 @@ TABLE OF CONTENT
 }
 .section-block-grey {
     padding: 90px 0px 90px 0px;
-    background-color: #f9f9f9;
+    background-color: #fff;
+
 }
 
 .section-block-dark {
@@ -314,7 +316,7 @@ TABLE OF CONTENT
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 1;
-    color: #fff;
+    color: #111;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -335,7 +337,7 @@ TABLE OF CONTENT
 }
 
 .page-title-section ul li a {
-    color: #fff;
+    color: #111;
     font-size: 14px;
     font-weight: 500;
 }
@@ -1685,94 +1687,190 @@ f) Overlays
 /*
 14. Team
 */
-.team-member {
-    overflow: hidden;
-    background: #fff;
-    border: 1px solid #ececec;
-    border-radius: 5px;
-    -webkit-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
-    -moz-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
-    box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
-    margin: 20px 0px;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+.team-box-2 {
+    position: relative;
 }
 
-.team-member:hover {
-    -webkit-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
-    -moz-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
-    box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.28);
-
+.team-box-2-image {
+    position: relative;
+    margin: 15px 0px 15px 0px;
 }
 
-.team-member-img {
+.team-box-2-image img {
+    display: block;
     width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 
-.team-member-img img {
+.team-box-2-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.team-box-2:hover .team-box-2-overlay {
+    opacity: 1;
+}
+
+.team-box-2-content {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 50px;
+}
+
+.team-box-2-content i {
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    background: transparent;
+    padding: 10px;
+    transition: .6s ease;
+}
+
+.team-box-2-content i:hover {
+    color: #000;
+    background: #fff;
+}
+
+.team-box-2:hover .team-box-2-overlay i {
+    animation-name: fadeInUp;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+}
+
+
+.team-box-2-name {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 50px;
+}
+
+.team-box-2-name h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.team-box-2:hover .team-box-2-overlay h4 {
+    animation-name: fadeInDown;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+}
+
+.team-box-2-name h5 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.team-box-2:hover .team-box-2-overlay h5 {
+    animation-name: fadeInDown;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+}
+/*--------------
+  Team Single
+----------------*/
+.team-single-img {
     width: 100%;
 }
 
-.team-member-text {
-    text-align: center;
-    padding: 20px 50px;
+.team-single-img img {
+    border-radius: 5px;
 }
 
-.team-member-text h4 {
-    color: #111;
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 3px;
-    -webkit-transition-duration: .6s;
-    transition-duration: .6s;
+.team-single-text {
+    padding: 5px 50px 15px 15px;
 }
 
-.team-member:hover .team-member-text h4 {
+.team-single-text span {
     color: #d21e2b;
-}
-
-.team-member-text span {
-    color: #d21e2b;
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: 2px;
-}
-
-.team-member-text p {
-    color: #999;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 170%;
-    margin-top: 20px;
+    font-weight: 500;
 }
 
-.team-member-text ul {
-    margin-top: 15px;
-    padding: 8px 0px 8px 0px;
+.team-single-text h4 {
+    color: #111;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
-.team-member-text ul li {
-    display: inline-block;
-    padding: 0px 10px;
+.team-single-info {
+    padding: 0px 0px;
 }
 
-.team-member-text ul li a i {
+.team-single-info li strong {
     color: #555;
-    font-size: 17px;
-    -webkit-transition-duration: .4s;
-    transition-duration: .4s;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
 }
 
-.team-member-text ul li a i:hover {
-    color: #d21e2b;
+.team-single-text li span {
+    color: #777;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 
-@media screen and (max-width: 994px) {
-    .team-member-text {
-        padding: 20px 10px;
-    }
+.team-single-social {
+    padding: 5px 0px;
+}
+
+.team-single-social li {
+    display: inline-block;
+}
+
+.team-single-social li a {
+    display: inline-block;
+    margin-right: 15px;
+    background: #d21e2b;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.team-single-social li a:hover {
+    display: inline-block;
+    margin-right: 15px;
+    background: #111;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.team-single-social li a i {
+    color: #fff;
+    font-size: 15px;
+    padding: 11px 0px 0px 11px;
 }
 
 
@@ -2037,4 +2135,37 @@ f) Overlays
     font-size: 15px;
     font-weight: 400;
     color: #aaa;
+}
+/*
+	17.Service box
+*/
+.service-box-car-2 {
+    display: block;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.07);
+    border-radius: 5px;
+    padding: 30px 25px;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.service-box-car-2 i {
+    display: block;
+    color: #111;
+    font-size: 55px;
+    margin-bottom: 5px;
+}
+
+.service-box-car-2 h4 {
+    color: #111;
+    font-size: 18px;
+    margin: 18px 0px;
+}
+
+.service-box-car-2 p {
+    font-size: 15px;
+    color: #999;
+    line-height: 1.7;
+    margin-bottom: 0px;
 }
