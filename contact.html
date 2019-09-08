@@ -32,6 +32,19 @@
   <!-- Fonts Google -->
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@5.10.7/dist/typeit.js"></script>
+
+  <script type="text/javascript">
+    window.$crisp = [];
+    window.CRISP_WEBSITE_ID = "febeef21-45dc-42cc-a71f-eb26b04fa019";
+    (function() {
+      d = document;
+      s = d.createElement("script");
+      s.src = "https://client.crisp.chat/l.js";
+      s.async = 1;
+      d.getElementsByTagName("head")[0].appendChild(s);
+    })();
+  </script>
 </head>
 
 <body>
@@ -53,7 +66,25 @@
   <!-- Page Title START -->
   <div class="page-title-section" style="background-image: url(images/bgmain.jpg);">
     <div class="container">
-      <h1>Contact</h1>
+      <h1 id="typeLoopContact"> Contact
+	                       <script>
+
+                            window.instance =   new TypeIt('#typeLoopContact', {
+        speed: 70,
+        strings: [
+            'Edited one '
+
+        ],
+        breakLines: false,
+        showCursor: false
+
+
+
+
+      }
+	)
+    </script>
+</h1>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="contact.html">Contact</a></li>
