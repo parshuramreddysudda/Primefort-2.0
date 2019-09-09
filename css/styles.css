@@ -31,9 +31,10 @@ TABLE OF CONTENT
 15.tabs
 16.feature box
 17.service box
-
-
-
+18.footer
+19.accordion
+20.Feedback box
+21.owl carousel
 [END] TABLE OF CONTENT
 
 */
@@ -59,7 +60,7 @@ TABLE OF CONTENT
 }
 .section-block-grey {
     padding: 90px 0px 90px 0px;
-    background-color: #fff;
+    background-color: #f9f9f9;
 
 }
 
@@ -2125,7 +2126,7 @@ f) Overlays
 }
 
 .feature-box-long i {
-    color: #111;
+    color: #d21e2b;
     font-size: 65px;
     -webkit-transition-duration: .3s;
     transition-duration: .3s;
@@ -2136,6 +2137,127 @@ f) Overlays
     font-weight: 400;
     color: #aaa;
 }
+
+/*
+	Read team assesment feature box
+*/
+
+.serv-section-2 {
+    position: relative;
+    border: 1px solid #eee;
+    background: #fff;
+    box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.serv-section-2:before {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    z-index: 0;
+    content: " ";
+    width: 120px;
+    height: 120px;
+    background: #f5f5f5;
+    border-bottom-left-radius: 136px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+
+.serv-section-2:hover:before {
+    background: #d21e2b;
+}
+
+.serv-section-2-icon {
+    position: absolute;
+    top: 18px;
+    right: 22px;
+    max-width: 100px;
+    z-index: 1;
+    text-align: center
+}
+
+.serv-section-2-icon i {
+    color: #d21e2b;
+    font-size: 48px;
+    line-height: 65px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+
+.serv-section-2:hover .serv-section-2-icon i {
+    color: #fff;
+}
+
+.serv-section-top-text {
+    width: 180px;
+    height: auto;
+}
+
+.serv-section-desc {
+    position: relative;
+}
+
+.serv-section-2 h4 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.serv-section-2 h5 {
+    color: #333;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 5px;
+}
+
+.serv-section-2 p {
+    margin-top: 25px;
+    padding-right: 50px;
+}
+
+.serv-section-2-act:before {
+    background: #d21e2b;
+}
+
+.serv-section-2-act:hover:before {
+    background: #f5f5f5;
+}
+
+.serv-section-2-icon-act i {
+    color: #fff;
+}
+
+.serv-section-2-act:hover .serv-section-2-icon-act i {
+    color: #d21e2b !important;
+}
+
+@media (max-width: 991px) {
+    .serv-section-2 {
+        margin-top: 20px;
+    }
+
+    .serv-section-2:before {
+        margin-top: 0px;
+    }
+
+    .serv-section-2-icon i {
+        position: absolute;
+        right: -3px;
+        top: 0px;
+    }
+}
+
+@media (max-width: 425px) {
+    .serv-section-2 {
+        padding: 30px 10px;
+    }
+}
+
 /*
 	17.Service box
 */
@@ -2152,7 +2274,7 @@ f) Overlays
 
 .service-box-car-2 i {
     display: block;
-    color: #111;
+    color: #d21e2b;
     font-size: 55px;
     margin-bottom: 5px;
 }
@@ -2168,4 +2290,421 @@ f) Overlays
     color: #999;
     line-height: 1.7;
     margin-bottom: 0px;
+}
+/*
+18. Footer
+*/
+footer {
+    background: #fff;
+    padding: 100px 0px 50px 0px;
+      border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+footer p {
+    font-size: 14px;
+    color: #111;
+    line-height: 1.7;
+}
+
+footer h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #111;
+    line-height: 1;
+}
+
+footer h3:after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    background: #d21e2b;
+    margin-top: 12px;
+}
+
+@media (max-width: 991px) {
+    footer h3 {
+        margin-top: 30px;
+    }
+}
+
+
+.footer-social-icons ul li {
+    display: inline-block;
+    background: #111;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+.footer-social-icons ul li a {
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    padding: 11px;
+    padding-top: 8px;
+}
+
+.footer-social-icons ul li:hover {
+    background: #fff;
+}
+.footer-social-icons ul li a:hover{
+  color:#111;
+}
+
+.footer-list {
+    margin-top: 20px;
+}
+
+.footer-list li {
+    list-style-type: none;
+    color: #111;
+    padding: 6px 0px;
+}
+
+.footer-list li a:before {
+    content: '\f105';
+    font-family: 'FontAwesome';
+    color: #111;
+    padding-right: 8px;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+.footer-list li a {
+    font-size: 15px;
+    font-weight: 400;
+    color: #111;
+}
+
+.footer-list li a:hover {
+    color: #111;
+}
+
+.footer-list li a:hover:before {
+    color: #111;
+}
+
+
+.footer-recent-post {
+    margin: 15px 0px;
+}
+
+.footer-recent-post-thumb {
+    float: left;
+    width: 25%;
+}
+
+.footer-recent-post-content {
+    float: left;
+    width: 75%;
+    padding-left: 10px;
+}
+
+.footer-recent-post-content a {
+    display: block;
+    color: #111;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.footer-recent-post-content span {
+    color: #111;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+.footer-tags a {
+    display: inline-block;
+    font-size: 11px;
+    padding: 10px 15px;
+    color: #111;
+    font-weight: 400;
+    background: #222;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+
+.footer-tags a:hover {
+    background: #d21e2b;
+}
+
+
+.footer-bar {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+
+.footer-bar span {
+    color: #111;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer-bar p {
+    color: #111;
+    font-size: 15px;
+    font-weight: 400;
+}
+/*
+19. Accordions
+*/
+.accordion {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #ececec;
+    border-radius: 0px !important;
+}
+
+.accordion-heading {
+    border-radius: 0px;
+    padding: 0px;
+}
+
+.accordion-title a {
+    font-size: 15px;
+    font-weight: 600;
+    color: #111;
+    line-height: 1;
+    display: block;
+    padding: 20px 0px 25px 0px;
+    border-radius: 0px;
+}
+
+.accordion-title a:after {
+    content: '\f107';
+    font-size: 18px;
+    font-family: "FontAwesome";
+    color: #d21e2b;
+    float: right;
+}
+
+.accordion-title .collapsed:after {
+    content: '\f105';
+    font-size: 18px;
+    font-family: "FontAwesome";
+    color: #333;
+    float: right;
+}
+
+.accordion-body {
+    font-size: 15px;
+    font-weight: 400;
+    color: #999;
+    line-height: 170%;
+    text-align: left;
+    border: none !important;
+    padding: 0px;
+    padding: 18px 0px 30px 0px;
+}
+
+.accordion-body p {
+    margin-bottom: 0px;
+}
+
+.panel-body {
+    border-top: 1px solid #eee !important;
+}
+
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: transparent !important;
+    border-color: #ddd;
+}
+
+
+/*Grey Accordions*/
+.panel-grey > .panel-heading a {
+    color: #111;
+    background-color: #f7f7f7 !important;
+    border: none !important;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 5px;
+}
+
+.panel-grey {
+    border: none !important;
+}
+
+.panel-grey .panel-body {
+    border: none !important;
+}
+
+.panel-grey .accordion-title a:after {
+    content: '\f056';
+    font-size: 18px;
+    font-family: "FontAwesome";
+    color: #d21e2b;
+    float: right;
+}
+
+.panel-grey .accordion-title .collapsed:after {
+    content: '\f055';
+    font-size: 18px;
+    font-family: "FontAwesome";
+    color: #333;
+    float: right;
+}
+
+/*
+20. Feedback box
+*/
+.feedback-box {
+    position: relative;
+    background: #f9f9f9;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    border: 1px solid #ececec;
+    padding: 25px;
+    margin: 10px 0px;
+}
+
+.feedback-box h5 {
+    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.feedback-box h5:before {
+    content: '●';
+    color: #d21e2b;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.feedback-form input {
+    color: #111;
+    font-weight: 400;
+    width: 100%;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    padding: 12px 15px;
+    margin: 15px 0px;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+.feedback-form input:focus {
+    border-color: #ccc;
+}
+
+.feedback-form textarea {
+    color: #111;
+    font-weight: 400;
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    padding: 12px 15px;
+    margin: 15px 0px;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+.feedback-form textarea:focus {
+    border-color: #ccc;
+}
+
+
+.feedback-form button {
+    display: inline-block;
+    background: #d21e2b;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 11px 20px 11px 20px;
+    border-radius: 50px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease;
+    margin-top: 5px;
+}
+
+.feedback-form button:hover {
+    background: #111;
+}
+/*
+21. Owl Carousel
+*/
+.custom-dot {
+    display: inline-block;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.custom-dot span {
+    width: 12px;
+    height: 12px;
+    margin: 5px 7px;
+    background: #cecece;
+    cursor: pointer;
+    display: block;
+    border: 1px solid #fff;
+    -webkit-backface-visibility: visible;
+    border-radius: 30px;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+.custom-dot span:hover {
+    background: #aaa;
+    -webkit-backface-visibility: visible;
+    border-radius: 30px;
+}
+
+.custom-dot.active span {
+    width: 12px;
+    height: 12px;
+    background: #d21e2b;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+.owl-nav i {
+    color: #111;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.owl-nav .owl-prev {
+    color: #d21e2b;
+    font-size: 43px;
+    left: 0%;
+    text-align: center;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 50px;
+    height: 50px;
+    background: #fff !important;
+    -webkit-box-shadow: 0px 5px 28px 0px rgba(50, 50, 50, 0.1);
+    -moz-box-shadow: 0px 5px 28px 0px rgba(50, 50, 50, 0.1);
+    box-shadow: 0px 5px 28px 0px rgba(50, 50, 50, 0.1);
+}
+
+.owl-nav .owl-next {
+    color: #d21e2b;
+    font-size: 43px;
+    text-align: center;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 50px;
+    height: 50px;
+    background: #fff !important;
+    -webkit-box-shadow: 0px 5px 28px 0px rgba(50, 50, 50, 0.1);
+    -moz-box-shadow: 0px 5px 28px 0px rgba(50, 50, 50, 0.1);
+    box-shadow: 0px 5px 28px 0px rgba(50, 50, 50, 0.1);
 }

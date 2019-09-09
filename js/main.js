@@ -1,9 +1,4 @@
-/*
-    Project Name : Business
-    Author Company : SpecThemes
-    Project Date: 5 Feb, 2017
-    Template Developer: vsafaryan50@gmail.com
-*/
+
 
 
 /*
@@ -15,17 +10,14 @@ TABLE OF CONTENT
 2. CountUp
 3. Slider
 4. Hover Drop Down
-5. Youtube Video Section
-6. Video Modal
-7. Preloader
-8. Scroll To Top
-9. Isotop
-10. WOW
-11. Serach
-12. Input Number, Shopping Cart
-13. Tabs
-14. Pie Chart
-15. Charts.js
+5. Preloader
+6. Scroll To Top
+7. Isotop
+8. WOW
+9. Serach
+10. Input Number, Shopping Cart
+11. Tabs
+
 
 ==============================================
 [END] TABLE OF CONTENT
@@ -232,34 +224,6 @@ $(document).ready(function () {
     }
   })
 
-
-  /*---------------------
-  Blog Grid carousel
-  -----------------------*/
-  $('#blog-grid').owlCarousel({
-    loop: false,
-    dots: true,
-    nav: false,
-    smartSpeed: 850,
-    autoplay: true,
-    autoplayTimeout: 2500,
-    responsiveClass: true,
-    autoplayHoverPause: false,
-    responsive: {
-      0: {
-        items: 1,
-        margin: 0,
-      },
-      600: {
-        items: 2,
-        margin: 0,
-      },
-      1000: {
-        items: 3,
-        margin: 0,
-      }
-    }
-  })
 
 
   /*---------------------
@@ -683,28 +647,6 @@ $(document).ready(function () {
   $("#navigation7").navigation();
 
 
-  /*------------------------------------
-      5. Youtube Video Section
-  --------------------------------------*/
-  if ($(".video-section").length !== 0) {
-    $('.player').mb_YTPlayer();
-  }
-
-  if ($(".main-video-section").length !== 0) {
-    $('#main-video-play').mb_YTPlayer();
-  }
-
-
-  /*------------------------------------
-      6. Video Modal
-  --------------------------------------*/
-
-  $('.modal').on('hidden.bs.modal', function () {
-    var $this = $(this).find('iframe'),
-      tempSrc = $this.attr('src');
-    $this.attr('src', "");
-    $this.attr('src', tempSrc);
-  });
 
 
   /*------------------------------------
@@ -801,54 +743,9 @@ function closeNav() {
 }
 
 
-/*------------------------------------
-    12. Input Number, Shopping Cart
---------------------------------------*/
-
-/*---------------------
-Input Number
------------------------*/
-jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up">+</div><div class="quantity-button quantity-down">-</div></div>').insertAfter('.quantity input');
-jQuery('.quantity').each(function () {
-  var spinner = jQuery(this),
-    input = spinner.find('input[type="number"]'),
-    btnUp = spinner.find('.quantity-up'),
-    btnDown = spinner.find('.quantity-down'),
-    min = input.attr('min'),
-    max = input.attr('max');
-
-  btnUp.on("click", function () {
-    var oldValue = parseFloat(input.val());
-    if (oldValue >= max) {
-      var newVal = oldValue;
-    } else {
-      var newVal = oldValue + 1;
-    }
-    spinner.find("input").val(newVal);
-    spinner.find("input").trigger("change");
-  });
-
-  btnDown.on("click", function () {
-    var oldValue = parseFloat(input.val());
-    if (oldValue <= min) {
-      var newVal = oldValue;
-    } else {
-      var newVal = oldValue - 1;
-    }
-    spinner.find("input").val(newVal);
-    spinner.find("input").trigger("change");
-  });
-
-});
 
 
-/*---------------------
-Shopping Cart
------------------------*/
-$('.close-box').on("click", function () {
-  $(this).parentsUntil('.row').slideToggle();
-  return false;
-});
+
 
 
 /*------------------------------------
@@ -860,311 +757,3 @@ $('.tabs_animate').tabslet({
   attribute: 'href',
   animation: true
 });
-
-
-/*------------------------------------
-    14. Pie Chart
---------------------------------------*/
-
-
-/*------------------------------------
-    9. Pie Chart
---------------------------------------*/
-if ($('.chart').length > 0) {
-  var $pieChart = $('.chart');
-  $pieChart.each(function () {
-    var $elem = $(this),
-      pieChartSize = $elem.attr('data-size') || "120",
-      pieChartAnimate = $elem.attr('data-animate') || "2100",
-      pieChartWidth = $elem.attr('data-width') || "6",
-      pieChartColor = $elem.attr('data-color') || "#2e52c2",
-      pieChartTrackColor = $elem.attr('data-trackcolor') || "rgba(0,0,0,0.1)";
-    $elem.find('span, i').css({
-      'width': pieChartSize + 'px',
-      'height': pieChartSize + 'px',
-      'line-height': pieChartSize + 'px'
-    });
-    $elem.appear(function () {
-      $elem.easyPieChart({
-        size: Number(pieChartSize),
-        animate: Number(pieChartAnimate),
-        trackColor: pieChartTrackColor,
-        lineWidth: Number(pieChartWidth),
-        barColor: pieChartColor,
-        scaleColor: false,
-        lineCap: 'round',
-        onStep: function (from, to, percent) {
-          $elem.find('span.percent').text(Math.round(percent));
-        }
-      });
-    });
-  });
-}
-;
-
-
-if ($(".chartjs-render-monitor").length !== 0) {
-  var randomScalingFactor = function () {
-    return Math.round(Math.random() * 100);
-  };
-
-  var config = {
-    type: 'pie',
-    data: {
-      datasets: [{
-        data: [
-          randomScalingFactor(),
-          randomScalingFactor(),
-          randomScalingFactor(),
-          randomScalingFactor(),
-        ],
-        backgroundColor: [
-          window.chartColors.red,
-          window.chartColors.orange,
-          window.chartColors.green,
-          window.chartColors.blue,
-        ],
-        label: 'Dataset 1'
-      }],
-      labels: [
-        "Red",
-        "Orange",
-        "Green",
-        "Blue"
-      ]
-    },
-    options: {
-      responsive: true
-    }
-  };
-
-  window.onload = function () {
-    var ctx = document.getElementById("chart-area").getContext("2d");
-    window.myPie = new Chart(ctx, config);
-  };
-
-  document.getElementById('randomizeData').addEventListener('click', function () {
-    config.data.datasets.forEach(function (dataset) {
-      dataset.data = dataset.data.map(function () {
-        return randomScalingFactor();
-      });
-    });
-
-    window.myPie.update();
-  });
-
-  var colorNames = Object.keys(window.chartColors);
-  document.getElementById('addDataset').addEventListener('click', function () {
-    var newDataset = {
-      backgroundColor: [],
-      data: [],
-      label: 'New dataset ' + config.data.datasets.length,
-    };
-
-    for (var index = 0; index < config.data.labels.length; ++index) {
-      newDataset.data.push(randomScalingFactor());
-
-      var colorName = colorNames[index % colorNames.length];
-      ;
-      var newColor = window.chartColors[colorName];
-      newDataset.backgroundColor.push(newColor);
-    }
-
-    config.data.datasets.push(newDataset);
-    window.myPie.update();
-  });
-
-  document.getElementById('removeDataset').addEventListener('click', function () {
-    config.data.datasets.splice(0, 1);
-    window.myPie.update();
-  });
-}
-
-
-/*------------------------------------
-    15. Charts.js
---------------------------------------*/
-if ($(".chartjs").length !== 0) {
-  /*----------------
-  Chart style 1
-  ------------------*/
-  var presets = window.chartColors;
-  var utils = Samples.utils;
-  var inputs = {
-    min: -100,
-    max: 100,
-    count: 8,
-    decimals: 2,
-    continuity: 1
-  };
-
-  function generateData(config) {
-    return utils.numbers(Chart.helpers.merge(inputs, config || {}));
-  }
-
-  function generateLabels(config) {
-    return utils.months(Chart.helpers.merge({
-      count: inputs.count,
-      section: 3
-    }, config || {}));
-  }
-
-  var options = {
-    maintainAspectRatio: false,
-    spanGaps: false,
-    elements: {
-      line: {
-        tension: 0.000001
-      }
-    },
-    plugins: {
-      filler: {
-        propagate: false
-      }
-    },
-    scales: {
-      xAxes: [{
-        ticks: {
-          autoSkip: false,
-          maxRotation: 0
-        }
-      }]
-    }
-  };
-
-  [false, 'origin', 'start', 'end'].forEach(function (boundary, index) {
-
-    // reset the random seed to generate the same data for all charts
-    utils.srand(8);
-
-    new Chart('chart-' + index, {
-      type: 'line',
-      data: {
-        labels: generateLabels(),
-        datasets: [{
-          backgroundColor: utils.transparentize(presets.red),
-          borderColor: presets.red,
-          data: generateData(),
-          label: 'Dataset',
-          fill: boundary
-        }]
-      },
-      options: Chart.helpers.merge(options, {
-        title: {
-          text: 'fill: ' + boundary,
-          display: false
-        }
-      })
-    });
-  });
-
-  // eslint-disable-next-line no-unused-vars
-  function toggleSmooth(btn) {
-    var value = btn.classList.toggle('btn-on');
-    Chart.helpers.each(Chart.instances, function (chart) {
-      chart.options.elements.line.tension = value ? 0.4 : 0.000001;
-      chart.update();
-    });
-  }
-
-  // eslint-disable-next-line no-unused-vars
-  function randomize() {
-    var seed = utils.rand();
-    Chart.helpers.each(Chart.instances, function (chart) {
-      utils.srand(seed);
-
-      chart.data.datasets.forEach(function (dataset) {
-        dataset.data = generateData();
-      });
-
-      chart.update();
-    });
-  }
-
-
-  /*----------------
-  Chart style 2
-  ------------------*/
-  var config = {
-    type: 'line',
-    data: {
-      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-      datasets: [{
-        label: 'My First dataset',
-        borderColor: window.chartColors.red,
-        backgroundColor: window.chartColors.red,
-        data: [
-          randomScalingFactor(),
-          randomScalingFactor(),
-          randomScalingFactor(),
-          randomScalingFactor(),
-          randomScalingFactor(),
-          randomScalingFactor(),
-          randomScalingFactor()
-        ],
-        fill: false,
-      }, {
-        label: 'My Second dataset',
-        borderColor: window.chartColors.black,
-        backgroundColor: window.chartColors.black,
-        data: [
-          randomScalingFactor(),
-          randomScalingFactor(),
-          randomScalingFactor(),
-          randomScalingFactor(),
-          randomScalingFactor(),
-          randomScalingFactor(),
-          randomScalingFactor()
-        ],
-        fill: false,
-      }]
-    },
-    options: {
-      responsive: true,
-      title: {
-        display: false,
-        text: 'Chart.js Line Chart - Custom Information in Tooltip'
-      },
-      tooltips: {
-        mode: 'index',
-        callbacks: {
-          // Use the footer callback to display the sum of the items showing in the tooltip
-          footer: function (tooltipItems, data) {
-            var sum = 0;
-
-            tooltipItems.forEach(function (tooltipItem) {
-              sum += data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index];
-            });
-            return 'Sum: ' + sum;
-          },
-        },
-        footerFontStyle: 'normal'
-      },
-      hover: {
-        mode: 'index',
-        intersect: true
-      },
-      scales: {
-        xAxes: [{
-          display: true,
-          scaleLabel: {
-            show: true,
-            labelString: 'Month'
-          }
-        }],
-        yAxes: [{
-          display: true,
-          scaleLabel: {
-            show: true,
-            labelString: 'Value'
-          }
-        }]
-      }
-    }
-  };
-
-  window.onload = function () {
-    var ctx = document.getElementById('canvas').getContext('2d');
-    window.myLine = new Chart(ctx, config);
-  };
-}
