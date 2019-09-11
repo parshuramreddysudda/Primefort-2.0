@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-  <title>Web Application Pentesting</title>
+  <title>Data Security</title>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="images/primefort/primefortTitle.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -59,14 +59,14 @@
   <!-- Preloader End -->
 
 
-
+<?php include'header.php';?>
 
 
 
   <!-- Page Title START -->
   <div class="page-title-section" style="background-image: url(images/bgmain.jpg);">
-    <div class="container">
-      <h1 id="typeLoopContact">Web Application Pentesting
+    <div class="container" style="margin-top:4vh;">
+      <h1 id="typeLoopContact">Data Security
         <script>
           window.instance = new TypeIt('#typeLoopContact', {
             speed: 70,
@@ -84,9 +84,9 @@
         </script>
       </h1>
       <ul>
-        <li><a href="index.html">Service</a></li>
-        <li><a href="index.html">Penetration Testing</a></li>
-        <li><a href="webapplication.html">Web Application Pentesting</a></li>
+        <li><a href="index.php">Service</a></li>
+        <li><a href="index.php">Security as a Service</a></li>
+        <li><a href="cloudapplication.php">Data Security</a></li>
       </ul>
     </div>
   </div>
@@ -99,14 +99,13 @@
         <div class="col-md-6 col-sm-6 col-12">
           <div class="pr-30-md">
             <div class="section-heading">
-                
-              <h4><img src="images/services/9.png" width="35px" style="color: black"> &nbsp; Web Application Penetration Testing</h4>
+        
+              <h4>        <img src="images/services/7.png" width="35px" style="color: black"> &nbsp;Data Security</h4>
               <div class="section-heading-line-left"></div>
             </div>
             <div class="text-content-big mt-25">
-              <p>Web Application Penetration Testing evaluates the vulnerabilities of web applications by analyzing the unshielded defenses within the web applications which are so widely used in all Enterprises today.</p>
-              <p>Web applications prove to be the most fragile of all when it comes to security in most of the organizations. Being the most accessible publicly and the most preferred touch point for most stakeholders, web applications face the
-                maximum risk of being breached and lead malicious attackers into the system. It is then important to integrate a conducive and fool proof web application penetration testing technique into the workflows of the system.</p>
+              <p>Data storage mechanisms and the sources of data undergo radical adaptations to evolve and keep up pace with the changing needs and continuously metamorphosing technology. Data storage mechanisms see a chronological advancement from databases to warehouses to datamarts and now Big Data. The nature of Data itself turns into a need based practical combination of both structured and unstructured data.</p>
+              <p>Sources of data for the central repositories of Enterprise Software move out from being in-house to the Cloud; connected by the internet and other publicly accessed networking mechanisms. Data is sourced from devices of choice; laptops, smartphones, and tablets or wearables possessed by all the stakeholders; workforce, vendors and customers. The touch points are varied too. E-Commerce, Social Media and BYOD changes the way data is captured and exchanged.</p>
             </div>
           </div>
         </div>
@@ -131,16 +130,13 @@
         </div>
         <div class="container">
           <div class="text-content-big mt-25">
-            <p>Robust system design plans to expect and circumvent possible threats and defects prior to deployment can fail because of the rapid increase in complexity and the sheer volumes of the web enabled transactions and interactions today.
-              Undetected errors lying within the application makes it imperative to scan through these anomalies and explore them through Web Application Penetration Testing comprehending the negligence and the harm that can be caused if left
-              unchecked.</p>
-            <p>Be it inappropriate system configurations, hardware or software defects, limitations in security system or any other inadequacies, Web Application Penetration Testing is the call of the day to identify and assess web security loop
-              holes before coming face to face in a real time environment.</p>
-
+          <p>The data accessible with this flexible and open approach is more than vulnerable to privacy violations and misuses. The chances of both accidental and intentional data damage increase manifold. Data security is very significant today and compliance to data privacy norms becomes stringent and legally mandatory.</p>
+          <p>From Enterprise proprietary, to government-classified to personal data, the threat to data is everywhere and prudent Data Security Measures integrate compliance with end-to-end data protection into the systems with a single protection infrastructure.</p>
           </div>
         </div>
       </div>
     </div>
+	</div>
     <!-- Feedback Section END -->
 
 
@@ -150,36 +146,29 @@
         <div class="row">
           <div class="col-md-12 col-sm-12 col-12">
             <div class="section-heading">
-              <h4>Services for Web Application Penetration Testing</h4>
+              <h4>Services for Data Security</h4>
               <div class="section-heading-line-left"></div>
             </div>
-            <h6 style="padding:10px 0 10px 0;">From a security review perspective - we also emphasize on the following as a part of our overall approach:</h6>
             <!-- Lists Start -->
             <div class="row">
               <div class="col-md-6 col-sm-12 col-12">
                 <div class="mt-25">
                   <ul class="primary-list">
-                    <li><i class="fa fa-arrow-circle-right "></i> Inaccuracies Identification in the resources.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Applications.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Servers.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Data Sources.</li>
-                    <li><i class="fa fa-arrow-circle-right "></i>Violations Management strategies.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> Simulations.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Analyze Outcomes.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> Counter attack plans.</li>
-                    <li><i class="fa fa-arrow-circle-right "></i> Analyzing and Circumventing OWASP threats related to web applications. </li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> Injection.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> Broken Authentication and Session Management.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> Insecure Direct Object References.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Security Misconfiguration.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Sensitive Data Exposure.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> Missing Function Level Access Control.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Cross-Site Request Forgery.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> Using Components with Known Vulnerabilities.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> Invalidated Redirects and Forwards.</li>
-                    <li><i class="fa fa-arrow-circle-right "></i>  Provide Preventive Actions Guidelines.</li>
-
-
+                    <li><i class="fa fa-arrow-circle-right "></i> Classification and identification of sensitive data.</li>
+                    <li><i class="fa fa-arrow-circle-right "></i>Vulnerability Assessment.</li>
+                    <li><i class="fa fa-arrow-circle-right "></i>Multi Perimeter Data Security strategizing.</li>
+                    <li><i class="fa fa-arrow-circle-right "></i>Social Engineering Security.</li>
+                    <li><i class="fa fa-arrow-circle-right "></i>Logical Security for Data.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Encryption and screening.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Password and Authentication.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> User Authorization.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> Data and File activity monitoring.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> Reports and log generation.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Alerts and alarms integration.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> Quarantining malware.</li>
+                    <li><i class="fa fa-arrow-circle-right "></i>Logical Security for Data.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> Payment Card Industry Data Security Standard.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> ISO 27001.</li>
                   </ul>
                 </div>
               </div>
@@ -191,7 +180,8 @@
     </div>
     <!-- FAQ Section END -->
 
-
+<?php include'footer.php';?>
+	
     <!-- Scroll to top button Start -->
     <a href="#" class="scroll-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
     <!-- Scroll to top button End -->

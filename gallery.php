@@ -49,7 +49,7 @@
 
 <body>
 
-
+<?php include 'header.php'?>
   <!-- Preloader Start-->
   <div id="preloader">
     <div class="row loader">
@@ -65,7 +65,7 @@
 
   <!-- Page Title START -->
   <div class="page-title-section" style="background-image: url(images/bgmain.jpg);">
-    <div class="container">
+    <div class="container" style="margin-top:4vh;">
       <h1 id="typeLoopContact"> Gallery
 	                       <script>
 
@@ -179,7 +179,7 @@
 </body>
 </html>
 
-
+<?php include 'footer.php'?>
 
   <!-- Scroll to top button Start -->
   <a href="#" class="scroll-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>

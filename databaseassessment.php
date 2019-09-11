@@ -58,14 +58,14 @@
   </div>
   <!-- Preloader End -->
 
-
+<?php include'header.php';?>
 
 
 
 
   <!-- Page Title START -->
   <div class="page-title-section" style="background-image: url(images/bgmain.jpg);">
-    <div class="container">
+    <div class="container" style="margin-top:4vh;">
       <h1 id="typeLoopContact">Database Assessment
         <script>
           window.instance = new TypeIt('#typeLoopContact', {
@@ -84,9 +84,9 @@
         </script>
       </h1>
       <ul>
-        <li><a href="index.html">Service</a></li>
-        <li><a href="index.html">Auditing and Assessment</a></li>
-        <li><a href="databaseassessment.html">Database Assessment</a></li>
+        <li><a href="index.php">Service</a></li>
+        <li><a href="index.php">Auditing and Assessment</a></li>
+        <li><a href="databaseassessment.php">Database Assessment</a></li>
       </ul>
     </div>
   </div>
@@ -180,7 +180,7 @@
   <!-- Scroll to top button Start -->
   <a href="#" class="scroll-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
   <!-- Scroll to top button End -->
-
+<?php include'footer.php';?>
 
   <!-- Jquery -->
   <script src="js/jquery.min.js"></script>

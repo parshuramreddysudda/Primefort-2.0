@@ -38,6 +38,8 @@
 <body>
 
 
+<?php include'header.php';?>
+
   <!-- Preloader Start-->
   <div id="preloader">
     <div class="row loader">
@@ -48,7 +50,7 @@
 
   <!-- Page Title START -->
   <div class="page-title-section" style="background-image: url(images/bgmain.jpg);">
-    <div class="container">
+    <div class="container" style="margin-top: 4vh;">
       <h1 id="typeLoopContact">  About Us
 	                       <script>
 
@@ -69,8 +71,8 @@
     </script>
 </h1>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about us.html">ABOUT US</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="about us.php">ABOUT US</a></li>
       </ul>
     </div>
   </div>
@@ -179,7 +181,7 @@ To be an impetus of the data security industry in Georgia through joint research
             <img src="images\team\sriram.jpg" alt="member"/>
             <div class="team-box-2-overlay">
               <div class="team-box-2-name">
-               <a href="sriram.html"><h4>Sriram</h4></a>
+               <a href="sriram.php"><h4>Sriram</h4></a>
           <h5>Director-Technical</h5>
               </div>
               <div class="team-box-2-content">
@@ -199,7 +201,7 @@ To be an impetus of the data security industry in Georgia through joint research
           <img src="http://via.placeholder.com/355x390" alt="member">
             <div class="team-box-2-overlay">
               <div class="team-box-2-name">
-                  <a href="ronydas.html"><h4>Rony Das</h4></a>
+                  <a href="ronydas.php"><h4>Rony Das</h4></a>
                 <h5>Penetration Tester</h5>
               </div>
               <div class="team-box-2-content">
@@ -218,7 +220,7 @@ To be an impetus of the data security industry in Georgia through joint research
             <img src="images\team\hruday.jpg" alt="member">
             <div class="team-box-2-overlay">
               <div class="team-box-2-name">
-                  <a href="hruday.html"><h4>Hruday Charan</h4></a>
+                  <a href="hruday.php"><h4>Hruday Charan</h4></a>
                 <h5>Hacker</h5>
               </div>
               <div class="team-box-2-content">
@@ -237,7 +239,7 @@ To be an impetus of the data security industry in Georgia through joint research
               <img src="images\team\parshuram.jpg" alt="member">
             <div class="team-box-2-overlay">
               <div class="team-box-2-name">
-                <a href="Parshuram.html"><h4>Parshuram</h4></a>
+                <a href="Parshuram.php"><h4>Parshuram</h4></a>
                 <h5>Frontend Developer/ Hacker</h5>
               </div>
               <div class="team-box-2-content">
@@ -274,6 +276,7 @@ To be an impetus of the data security industry in Georgia through joint research
     </div>
   </div>
 </div>
+	<?php include'footer.php';?>
 <!-- Team Members END -->
   <!-- Scroll to top button Start -->
   <a href="#" class="scroll-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>

@@ -58,7 +58,7 @@
   </div>
   <!-- Preloader End -->
 
-
+<?php include'header.php';?>
 
 
 
@@ -86,8 +86,8 @@
     </script>
 </h1>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="contact.php">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -197,7 +197,7 @@
   <!-- Map START -->
 
 
-
+<?php include'footer.php';?>
 
   <!-- Scroll to top button Start -->
   <a href="#" class="scroll-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>

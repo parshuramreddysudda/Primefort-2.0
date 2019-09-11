@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-  <title>VoIP Pentesting</title>
+  <title>Cloud Application Pentesting</title>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="images/primefort/primefortTitle.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -59,14 +59,14 @@
   <!-- Preloader End -->
 
 
-
+<?php include'header.php';?>
 
 
 
   <!-- Page Title START -->
   <div class="page-title-section" style="background-image: url(images/bgmain.jpg);">
-    <div class="container">
-      <h1 id="typeLoopContact">VoIP Pentesting
+    <div class="container" style="margin-top:4vh;">
+      <h1 id="typeLoopContact">Cloud Application Pentesting
         <script>
           window.instance = new TypeIt('#typeLoopContact', {
             speed: 70,
@@ -84,9 +84,9 @@
         </script>
       </h1>
       <ul>
-        <li><a href="index.html">Service</a></li>
-        <li><a href="index.html">Penetration Testing</a></li>
-        <li><a href="cloudapplication.html">VoIP Pentesting</a></li>
+        <li><a href="index.php">Service</a></li>
+        <li><a href="index.php">Penetration Testing</a></li>
+        <li><a href="cloudapplication.php">Cloud Application Pentesting</a></li>
       </ul>
     </div>
   </div>
@@ -100,12 +100,12 @@
           <div class="pr-30-md">
             <div class="section-heading">
                
-              <h4> <img src="images/services/14.png" width="35px" style="color: black"> &nbsp; VoIP Penetration Testing</h4>
+              <h4> <img src="images/services/3.png" width="35px" style="color: black"> &nbsp; Cloud Application Penetration Testing</h4>
               <div class="section-heading-line-left"></div>
             </div>
             <div class="text-content-big mt-25">
-              <p>Voice over Internet Protocol (VoIP) a modern day technology used for telecommunications through an organizational network topology and hosted either by self or by a third party, goes a step beyond a routine phone connection. With features catering to multiple extensions, views of caller details, ability to record calls and log results, VoIP are in fact telephone systems with seamless integration to the common Enterprise Networks and are prone to external and internal attacks.<p>
-              <p>Multifaceted technology and modern day requirements increase the chance of complex assaults like call- tracking, call data manipulation, wire-tapping phone calls or even unauthorized recording of calls. Threats are posed to internal networks through VLAN because of data interchange between the client and the VoIP server.</p>
+              <p>Cloud is the preferred solution for data storage, infrastructure and services on demand today. Most enterprises migrate to the Cloud following different models as alternatives; Public, Private or Hybrid and also service models of choice SaaS, IaaS or PaaS.</p>
+              <p>The vulnerabilities faced by the data stored on the Cloud or applications hosted there are self-explanatory, justifying the increasing importance of the Penetration Testing of Cloud based applications, services and infrastructure. With an increasing number of enterprises migrating to the Cloud, the chances of breaches, threats and vulnerabilities increase day by day. Enterprises face unique challenges in protecting their resources over the various models of the Cloud.</p>
             </div>
           </div>
         </div>
@@ -130,11 +130,12 @@
         </div>
         <div class="container">
           <div class="text-content-big mt-25">
-          <p>VoIP Pen Testing determines the risks of attacks to these telecommunications based systems which are customarily employed in Enterprises.</p>
+            <p>Cloud Applications Penetration testing comes with a unique challenge. The test strategy changes if the testing is to be done for the Cloud Service Provider versus the Tenant. Since a Cloud is essentially a multi-tenant model; when the Cloud testing needs to be done for a particular tenant, it should avoid putting others at unease and also be conducted within the legal limits.</p>
           </div>
         </div>
       </div>
     </div>
+	</div>
     <!-- Feedback Section END -->
 
 
@@ -144,7 +145,7 @@
         <div class="row">
           <div class="col-md-12 col-sm-12 col-12">
             <div class="section-heading">
-              <h4>Services for VoIP Penetration Testing</h4>
+              <h4>Services for Web Application Penetration Testing</h4>
               <div class="section-heading-line-left"></div>
             </div>
             <!-- Lists Start -->
@@ -152,12 +153,20 @@
               <div class="col-md-6 col-sm-12 col-12">
                 <div class="mt-25">
                   <ul class="primary-list">
-                    <li><i class="fa fa-arrow-circle-right "></i> External Penetration Test.</li>
-                    <li><i class="fa fa-arrow-circle-right "></i>Comprehend VoIP configurations and Network designs.</li>
-                    <li><i class="fa fa-arrow-circle-right "></i>Physical voice port access checks.</li>
-                    <li><i class="fa fa-arrow-circle-right "></i>  Traffic Capture and Eavesdropping.</li>
-                    <li><i class="fa fa-arrow-circle-right "></i>Caller Id Spoofing.</li>
-                    <li><i class="fa fa-arrow-circle-right "></i>Identify Denial of Service (DoS) vulnerabilities.</li>
+                    <li><i class="fa fa-arrow-circle-right "></i>  Combination of penetration tests for testing in the Cloud.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Saas Pen test.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> IaaS and Paas Pen test.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> Internal Pen test.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> External Pen test.</li>
+                    <li><i class="fa fa-arrow-circle-right "></i>Multi Cloud Security Solutions.</li>
+                    <li><i class="fa fa-arrow-circle-right "></i>Specialized solutions for Cloud based deployments.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Data Protection.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> User Access Management.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Cloud Visibility and Discrepancy Detections.</li>
+                    <li><i class="fa fa-arrow-circle-right "></i>Niche Hybrid Cloud security testing encompassing.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>On-Premise Solutions.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Cloud based Solutions.</li>
+
                   </ul>
                 </div>
               </div>
@@ -169,7 +178,7 @@
     </div>
     <!-- FAQ Section END -->
 
-
+<?php include'footer.php';?>
     <!-- Scroll to top button Start -->
     <a href="#" class="scroll-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
     <!-- Scroll to top button End -->

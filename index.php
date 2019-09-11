@@ -34,26 +34,11 @@
   <!-- Main Styles -->
   <link rel="stylesheet" type="text/css" href="css/default.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css" id="colors">
-  <link rel="stylesheet" type="text/css" href="css/gallery.css">
 
-  <!-- Fonts Google -->
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <script type="text/javascript">
-    window.$crisp = [];
-    window.CRISP_WEBSITE_ID = "febeef21-45dc-42cc-a71f-eb26b04fa019";
-    (function() {
-      d = document;
-      s = d.createElement("script");
-      s.src = "https://client.crisp.chat/l.js";
-      s.async = 1;
-      d.getElementsByTagName("head")[0].appendChild(s);
-    })();
-  </script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@5.10.7/dist/typeit.js"></script>
+ 
+	
 </head>
-
 <body>
-
 
   <!-- Preloader Start-->
   <div id="preloader">
@@ -64,112 +49,17 @@
   <!-- Preloader End -->
 
 
-  <!-- Top-Bar START -->
-  <div id="top-bar" class="hidden-sm-down" style="display:none">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-9 col-12">
-          <div class="top-bar-welcome">
-            <ul>
-              <li>Let's secure innovation<span style="color:#d21e2b">| together</span></li>
-            </ul>
-          </div>
-          <div class="top-bar-info">
-            <ul>
-              <li> <a href="tel:+91 90471 40793" style="color:white"><i class="fa fa-phone"></i>+91 90471 40793</a>
-              <li>
-              <li><a href="mailto:info@primefort.net" style="color:white"><i class="fa fa-envelope"></i>info@primefort.net</a>
-              <li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-3 col-12">
-          <ul class="social-icons hidden-md-down">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Top-Bar END -->
-
-
-  <!-- Navbar START -->
-  <header id="nav-transparent">
-    <nav id="navigation4" class="container navigation">
-      <div class="nav-header">
-        <a class="nav-brand" href="index.html">
-          <img class="logo" src="images/primefort/prime fort.png" alt="logo" class="main-logo" id="light_logo">
-          <img class="logo" src="images/primefort/prime fort.png" class="main-logo" alt="logo" id="main_logo">
-        </a>
-        <div class="nav-toggle"></div>
-      </div>
-      <div class="nav-menus-wrapper">
-        <ul class="nav-menu align-to-right">
-          <li><a href="index.html">Home</a>
-
-          </li>
-          <li><a href="aboutus.html">About</a>
-
-          </li>
-          <li><a href="#">Services</a>
-            <div class="megamenu-panel">
-              <div class="megamenu-lists">
-                <ul class="megamenu-list list-col-3">
-                  <li class="megamenu-list-title">
-                    <h6>Auditing & Assessment</h6>
-                  </li>
-                  <li><a href="redteamassessment.html">Red Team Assessment</a></li>
-                  <li><a href="securesourcecode.html">Secure Source Code Auditing</a></li>
-                  <li><a href="databaseassessment.html">Database Assessment</a></li>
-                  <li><a href="webservicemanagment.html">Web Services managment</a></li>
-                </ul>
-                <ul class="megamenu-list list-col-3">
-                  <li class="megamenu-list-title">
-                    <h6>Penetration Testing</h6>
-                  </li>
-                  <li><a href="webapplication.html">Web Application Pentesting</a></li>
-                  <li><a href="cloudapplication.html">Cloud Application Pentesting</a></li>
-                  <li><a href="mobileapplication.html">Mobile Application Pentesting</a></li>
-                  <li><a href="networkpentesting.html">Network Penetration Testing</a></li>
-                  <li><a href="voipPentesting.html">VoIP Penetration Testing</a></li>
-                </ul>
-                <ul class="megamenu-list list-col-3">
-                  <li class="megamenu-list-title">
-                    <h6>Security as a Service</h6>
-                  </li>
-                  <li><a href="applicationSecurity.html">Application Security</a></li>
-                  <li><a href="dataSecurity.html">Data Security</a></li>
-
-                </ul>
-
-              </div>
-            </div>
-          </li>
-          <li><a href="gallery.html">Gallery</a>
-
-          </li>
-          <li><a href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <!-- Navbar END -->
-
+<?php include'header.php';?>
 
 
   <!-- Slider START -->
-  <div class="swiper-main-slider-fade swiper-container" style="height:800px">
+  <div class="swiper-main-slider-fade swiper-container" style="height:800px;">
     <div class="swiper-wrapper">
 
       <!-- Slide 1 Start -->
       <div class="swiper-slide" style="background-image:url(images/slider/1.jpg);">
         <!-- <div class="medium-overlay"></div> -->
-        <div class="container">
+        <div class="container" >
           <div class="slider-content left-holder">
             <h2 class="animated fadeInDown">
               Let's Secure <br> Innovations Together
@@ -182,7 +72,7 @@
               </div>
             </div>
             <div class="animated fadeInUp mt-30">
-              <a href="contact.html" class="primary-button button-md">Contact us</a>
+              <a href="contact.php" class="primary-button button-md">Contact us</a>
             </div>
           </div>
         </div>
@@ -227,7 +117,7 @@
         <div class="col-md-6 col-sm-12 col-12">
           <div class="pr-30-md">
             <div class="section-heading">
-              <h4>  Cybersecurity is Required..</h4>
+              <h4>Cybersecurity is Required..</h4>
             </div>
             <div class="section-heading-line-left"></div>
             <div class="text-content-big mt-20">
@@ -254,7 +144,7 @@
     <div class="container">
       <div class="section-heading center-holder">
 
-      <h3>  Explore Our Services</h3>
+      <h3>Explore Our Services</h3>
       <div class="section-heading-line"></div>
     </div>
     <div class="row mt-50">
@@ -299,12 +189,12 @@
             <div class="item">
               <img src="images/broke/apple.png" alt="partner-image">
             </div>
+		 <div class="item">
+              <img src="images/broke/google%20.png" alt="partner-image">
+            </div>
 
             <div class="item">
               <img src="images/broke/barcuda.jpg" alt="partner-image">
-            </div>
-			   <div class="item">
-              <img src="images/broke/google.png" alt="partner-image">
             </div>
 
             <div class="item">
@@ -537,7 +427,7 @@
 
 
       <!-- Counters Section START -->
-      <div id="overlayGray" class="section-block-parallax section-md" style="background-image:linear-gradient(to bottom, rgba(0,0,0, 0.52), rgba(0,0,0, 0.73)), url(https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);">
+      <div class="section-block-parallax section-md" style="background-image: url(https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);">
         <div class="container">
           <div class="row">
             <div class="col-md-5 col-sm-5 col-12">
@@ -587,7 +477,7 @@
             </div>
             <div class="col-md-4 col-sm-4 col-12">
               <div class="mt-10 right-holder-md">
-                <a href="contact.html" class="primary-button button-sm mt-15-xs">Contact Us Today</a>
+                <a href="contact.php" class="primary-button button-sm mt-15-xs">Contact Us Today</a>
               </div>
             </div>
           </div>
@@ -595,72 +485,9 @@
       </div>
       <!-- Notice Section END -->
 
-      <!-- Footer START -->
-      <footer>
-        <div class="container">
-          <div class="row">
-            <!-- Column 1 Start -->
-            <div class="col-md-4 col-sm-6 col-12">
-              <div class="mt-25">
-                <img class="logo" src="images/primefort/prime fort.png" class="main-logo" alt="logo" id="main_logo">
-                <div class="footer-social-icons mt-25">
-                  <ul>
-                    <li><a href="https://www.facebook.com/PrimeFort/"><i class="fa fa-facebook-square"></i></a></li>
-                    <li><a href="https://www.instagram.com/prime_fort/"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="https://twitter.com/Sri_Hxor"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="mailto:sriram@primefort.net"><i class="fa fa-envelope"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- Column 1 End -->
-
-            <!-- Column 2 Start -->
-            <div class="col-md-3 col-sm-6 col-12">
-              <h3>Quick Links</h3>
-              <ul class="footer-list">
-                <li><a href="aboutus.html">About.</a></li>
-                <li><a href="index.html">Services.</a></li>
-                <li><a href="contact.html">Contact.</a></li>
-
-              </ul>
-            </div>
-            <!-- Column 2 End -->
-            <!-- Column 3 Start -->
-            <div class="col-md-3 col-sm-6 col-12">
-              <h3>Service links</h3>
-              <ul class="footer-list">
-                <li><a href="#">Auditing & Assesment</a></li>
-                <li><a href="#">Penetration Testing</a></li>
-                <li><a href="#">Security as a service</a></li>
-              </ul>
-            </div>
-            <!-- Column 3 End -->
-
-            <!-- Column 2 Start -->
-            <div class="col-md-2 col-sm-6 col-12">
-              <h3>Contact</h3>
-              <ul class="footer-list">
-                <li><a> Primefort Pvt. Ltd., 14 vellavary Street, Muthialpet,Puducherry, 605003</a></li>
-                <li><a href="tel:+91 9047140793" title="Give us a call"> +91 9041740793</a></li>
-                <li><a href="mailto:info@primefort.net" title="Send me an email">info@primefort.net</a></li>
-
-              </ul>
-            </div>
-            <!-- Column 2 End -->
-
-
-
-          </div>
-
-          <!-- Footer Bar Start -->
-          <div class="footer-bar">
-            <p><span class="primary-color">Primefort</span> All rights Reserved @ 2019</p>
-          </div>
-          <!-- Footer Bar End -->
-        </div>
-      </footer>
-      <!-- Footer END -->
+	
+	<?php include 'footer.php';
+	?>
 
 
 
@@ -714,6 +541,6 @@
       <!-- Main JS -->
       <script src="js/main.js"></script>
 
-</body>
+	</body>
 
 </html>

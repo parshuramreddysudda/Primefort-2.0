@@ -60,12 +60,12 @@
 
 
 
-
+<?php include'header.php';?>
 
 
   <!-- Page Title START -->
   <div class="page-title-section" style="background-image: url(images/bgmain.jpg);">
-    <div class="container">
+    <div class="container" style="margin-top:4vh">
       <h1 id="typeLoopContact">Web Service Managment
         <script>
           window.instance = new TypeIt('#typeLoopContact', {
@@ -84,9 +84,9 @@
         </script>
       </h1>
       <ul>
-        <li><a href="index.html">Service</a></li>
-        <li><a href="index.html">Auditing and Assessment</a></li>
-        <li><a href="webservicemanagment.html">Web Service Managment</a></li>
+        <li><a href="index.php">Service</a></li>
+        <li><a href="index.php">Auditing and Assessment</a></li>
+        <li><a href="webservicemanagment.php">Web Service Managment</a></li>
       </ul>
     </div>
   </div>
@@ -197,7 +197,7 @@
     </div>
   </div>
 
-
+<?php include'footer.php';?>
 
 
   <!-- Scroll to top button Start -->

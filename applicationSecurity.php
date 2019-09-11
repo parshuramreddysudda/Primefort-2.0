@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-  <title>Mobile Application Penetration Testing</title>
+  <title>Application Security</title>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="images/primefort/primefortTitle.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -60,13 +60,14 @@
 
 
 
+<?php include'header.php';?>
 
 
 
   <!-- Page Title START -->
   <div class="page-title-section" style="background-image: url(images/bgmain.jpg);">
-    <div class="container">
-      <h1 id="typeLoopContact">Mobile Application Penetration Testing
+    <div class="container" style="margin-top:4vh;">
+      <h1 id="typeLoopContact">Application Security
         <script>
           window.instance = new TypeIt('#typeLoopContact', {
             speed: 70,
@@ -84,9 +85,9 @@
         </script>
       </h1>
       <ul>
-        <li><a href="index.html">Service</a></li>
-        <li><a href="index.html">Penetration Testing</a></li>
-        <li><a href="cloudapplication.html">Mobile Application Penetration Testing</a></li>
+        <li><a href="index.php">Service</a></li>
+        <li><a href="index.php">Security as a Service</a></li>
+        <li><a href="cloudapplication.php">Application Security</a></li>
       </ul>
     </div>
   </div>
@@ -99,13 +100,13 @@
         <div class="col-md-6 col-sm-6 col-12">
           <div class="pr-30-md">
             <div class="section-heading">
-               
-              <h4>  <img src="images/services/13.png" width="35px" style="color: black"> &nbsp; Mobile Application Penetration Testing</h4>
+                
+              <h4><img src="images/services/19.png" width="35px" style="color: black">  &nbsp;Application Security</h4>
               <div class="section-heading-line-left"></div>
             </div>
             <div class="text-content-big mt-25">
-              <p>Mobile devices invade the corporate world and also the lives of individuals. Enterprise Mobility and Mobile technologies take the centre stage of all the operations in the enterprises. Concepts like BYOD give momemtum to this shift, bringing in an array of different threats to the system, accesssible through a variety of devices and networks.</p>
-              <p>On the other hand, the app culture brings with it a different kind of deployment threat. Downloading apps from various stores makes the devices susceptible to malicious attacks from viruses and malware that the apps could bring with them.</p>
+            <p>Application Security is a conscious effort to integrate methods to enforce security requirements of an application right at the time of the development of code. Application Security bridges the gaps between the demands of safety and the realities of the system being produced during the system development life cycle.</p>
+            <p>Application Security then is all about comprehending the threats to the resources of the software and incorporating security as an integral part of the application itself.</p>
             </div>
           </div>
         </div>
@@ -130,12 +131,13 @@
         </div>
         <div class="container">
           <div class="text-content-big mt-25">
-          <p>Mobile App Penetration Testing keeps a tab on probable attacks on wearable devices, smartphones, tablets, laptops, computers; their data and the networks that connect them and enlists methods to prevent these.</p>
-          <p>The growing variations in devices and their different operating systems pose unique challenges for conducting penetration tests for the mobile applications. Pen Testing and analyzing the mobile applications optimally on a real-time environment, simulation of different types of attacks; generalized and mobile specific ones as well as replication of attacker actions to retrieve classified information are few of the actions that form the core of any Mobile Application Penetration Testing.</p>
+          <p>After Web Application security, Mobile Application security takes a front seat today for all safety related concerns. The threats are posed by mobile devices accessing the systems as well as the downloadable applications available for mobile devices. Unchecked access to resources of mobile devices mean serious perils if malware makes way into the systems.</p>
+          <p>Contemporary application security architecture takes charge of the security of resources, networks and data of different types of applications; traditional on premise, web-based or mobile applications. These are swift, exhaustive and comprehensive security solutions to recognize disclosure levels and offer necessary actions to reduce the attacks and its risks. They foresee potential attacks of the future and devise preventive policies as an amalgamation of hardware, software and technical processes.</p>
           </div>
         </div>
       </div>
     </div>
+	</div>
     <!-- Feedback Section END -->
 
 
@@ -145,7 +147,7 @@
         <div class="row">
           <div class="col-md-12 col-sm-12 col-12">
             <div class="section-heading">
-              <h4>Services for Mobile Application Penetration Testing</h4>
+              <h4>Services for Application Security</h4>
               <div class="section-heading-line-left"></div>
             </div>
             <!-- Lists Start -->
@@ -153,18 +155,19 @@
               <div class="col-md-6 col-sm-12 col-12">
                 <div class="mt-25">
                   <ul class="primary-list">
-                    <li><i class="fa fa-arrow-circle-right "></i>Testing for popular Platforms and Devices.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Android Applications.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> iOS Applications.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Windows Phone Mobile Applications.</li>
-                    <li><i class="fa fa-arrow-circle-right "></i>Identifying mobile devices breaches into the system.</li>
-                    <li><i class="fa fa-arrow-circle-right "></i>Security awareness amongst the users.</li>
-                    <li><i class="fa fa-arrow-circle-right "></i>Social Engineering Security.</li>
-                    <li><i class="fa fa-arrow-circle-right "></i>Penetration testing through real world tactics.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Phishing.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Web form impersonation.</li>
-                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> Fake wireless access points.</li>
-                    <li><i class="fa fa-arrow-circle-right "></i>Audits and Reports as guidelines.</li>
+                    <li><i class="fa fa-arrow-circle-right "></i>Vulnerability Assessment.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Enterprise Solutions.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Web Applications.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Mobile Applications.</li>
+                    <li><i class="fa fa-arrow-circle-right "></i> Threat modeling.</li>
+                    <li><i class="fa fa-arrow-circle-right "></i>Security Auditing.</li>
+                    <li><i class="fa fa-arrow-circle-right "></i> Periodic Security Reviews.</li>
+                    <li><i class="fa fa-arrow-circle-right "></i> Security Policy Design and Updates.</li>
+                    <li><i class="fa fa-arrow-circle-right "></i>Application Security Program Management.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Testing.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i>Reporting.</li>
+                    <li><i class="fa fa-arrow-circle-o-right "style="margin-top: 6px;margin-left: 50px;"></i> Structuring Policies.</li>
+
                   </ul>
                 </div>
               </div>
@@ -176,7 +179,8 @@
     </div>
     <!-- FAQ Section END -->
 
-
+<?php include'footer.php';?>
+	
     <!-- Scroll to top button Start -->
     <a href="#" class="scroll-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
     <!-- Scroll to top button End -->
@@ -226,6 +230,7 @@
     <!-- Main JS -->
     <script src="js/main.js"></script>
 
+	  
 </body>
 
 </html>

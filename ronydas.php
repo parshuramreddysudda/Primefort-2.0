@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-  <title>Sriram</title>
+  <title>Rony das</title>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="images/primefort/primefortTitle.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -59,12 +59,12 @@
 </div>
 <!-- Preloader End -->
 
-
+<?php include'header.php';?>
 
 <!-- Page Title START -->
 <div class="page-title-section" style="background-image: url(images/bgmain.jpg);">
   <div class="container">
-    <h1 id="typeLoopContact"> Sriram
+    <h1 id="typeLoopContact"> Rony Das
       <script>
         window.instance = new TypeIt('#typeLoopContact', {
           speed: 70,
@@ -82,8 +82,8 @@
       </script>
     </h1>
     <ul>
-      <li><a href="aboutus.html">Team</a></li>
-      <li><a href="sriram.html">Sriram</a></li>
+      <li><a href="aboutus.php">Team</a></li>
+      <li><a href="ronydas.php">Rony Das</a></li>
     </ul>
   </div>
 </div>
@@ -97,30 +97,28 @@
       <div class="row">
         <div class="col-md-4 col-sm-4 col-12">
           <div class="team-single-img">
-            <img src="images\team\sriram.jpg" alt="img">
+            <img src="http://via.placeholder.com/350x290" alt="img">
           </div>
         </div>
 
         <!-- Personal Info START -->
         <div class="col-md-8 col-sm-8 col-12">
           <div class="team-single-text">
-            <span>Director-Technical</span>
-            <h4>Sriram</h4>
+            <span>Penetration Tester</span>
+            <h4>Rony das</h4>
             <ul class="team-single-info">
-              <li><strong>Phone</strong><span>To be updated!!.</span></li>
-              <li><strong>Gmail</strong><span>To be updated!!.</span></li>
+              <li><strong>Phone</strong><span>To be Updated!!.</span></li>
+              <li><strong>Gmail</strong><span>To be Updated!!.</span></li>
             </ul>
             <div class="text-content mt-20">
-              <h3>Web Application Security Researcher,Hacker.</h3>
-              <p>Sriram is an Engineering dropout. Sriram have been to more than 100+ colleges and created awareness to more than 50,000 students around India. Being a cyber security researcher he found severe vulnerabilities in companies like, Apple, Blackberry, Google, Barracuda network and many more. He has been covered by few media and he is an active Cyber Security.
-
-</p>
+              <p>To be Updated!.</p>
             </div>
 
             <ul class="team-single-social">
-              <li><a href="https://www.facebook.com/sriramofficialpage"><i class="fa fa-facebook-square"></i></a></li>
-              <li><a href="https://http://linkedin.com/in/sriramsec"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://twitter.com/Sri_Hxor"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-skype"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
             </ul>
           </div>
         </div>
@@ -133,9 +131,9 @@
             <div class="section-heading-line-left"></div>
           </div>
           <ul class="primary-list mt-40">
-            <li><i class="fa fa-check"></i>Web Application Security Researcher.</li>
-            <li><i class="fa fa-check"></i>Hacker.</li>
-
+            <li><i class="fa fa-check"></i>To be Updated!!.</li>
+            <li><i class="fa fa-check"></i>To be Updated!!.</li>
+		  </ul>
         </div>
 
         <div class="col-md-6 col-sm-6 col-12">
@@ -226,7 +224,7 @@
 </div>
 <!-- Team Member Section END -->
 
-
+<?php include'footer.php';?>
 <!-- Scroll to top button Start -->
 <a href="#" class="scroll-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
 <!-- Scroll to top button End -->

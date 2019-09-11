@@ -57,7 +57,7 @@
 </div>
 <!-- Preloader End -->
 
-
+<?php include'header.php';?>
 
 <!-- Page Title START -->
 <div class="page-title-section" style="background-image: url(images/bgmain.jpg);">
@@ -80,8 +80,8 @@
       </script>
     </h1>
     <ul>
-      <li><a href="aboutus.html">Team</a></li>
-      <li><a href="hruday.html">Hruday Charan</a></li>
+      <li><a href="aboutus.php">Team</a></li>
+      <li><a href="hruday.php">Hruday Charan</a></li>
     </ul>
   </div>
 </div>
@@ -130,7 +130,7 @@
           <ul class="primary-list mt-40">
             <li><i class="fa fa-check"></i>Co-Founder - PrimePilot.</li>
             <li><i class="fa fa-check"></i>Hacker.</li>
-
+		  </ul>
         </div>
 
         <div class="col-md-6 col-sm-6 col-12">
@@ -226,7 +226,8 @@
 <a href="#" class="scroll-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
 <!-- Scroll to top button End -->
 
-
+<?php include'footer.php';?>
+	
 <!-- Jquery -->
 <script src="js/jquery.min.js"></script>
 

@@ -57,11 +57,11 @@
 </div>
 <!-- Preloader End -->
 
-
+<?php include'header.php';?>
 
 <!-- Page Title START -->
 <div class="page-title-section" style="background-image: url(images/bgmain.jpg);">
-  <div class="container">
+  <div class="container" style="margin-top:4vh;">
     <h1 id="typeLoopContact">Parshuram
       <script>
         window.instance = new TypeIt('#typeLoopContact', {
@@ -80,8 +80,8 @@
       </script>
     </h1>
     <ul>
-      <li><a href="aboutus.html">Team</a></li>
-      <li><a href="parshuram.html">Parshuram</a></li>
+      <li><a href="aboutus.php">Team</a></li>
+      <li><a href="parshuram.php">Parshuram</a></li>
     </ul>
   </div>
 </div>
@@ -130,7 +130,7 @@
           <ul class="primary-list mt-40">
             <li><i class="fa fa-check"></i> Chapter Leader - PrimePilot.</li>
             <li><i class="fa fa-check"></i>Developer .</li>
-
+		  </ul>
         </div>
 
         <div class="col-md-6 col-sm-6 col-12">
@@ -221,7 +221,7 @@
 </div>
 <!-- Team Member Section END -->
 
-
+<?php include'footer.php';?>
 <!-- Scroll to top button Start -->
 <a href="#" class="scroll-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
 <!-- Scroll to top button End -->
