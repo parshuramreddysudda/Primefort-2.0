@@ -116,55 +116,55 @@
 
     <div class="tz-gallery">
 
-        <div class="row">
+        <div class="row" >
 
 
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-4" style="padding-bottom:15px;">
                 <a class="lightbox" href="images\gallery\headstart.jpg">
                     <img src="images\gallery\headstart.jpg" alt="Bridge">
                 </a>
-            </div><div class="col-sm-12 col-md-4">
+            </div><div class="col-sm-12 col-md-4" style="padding-bottom:15px;">
                 <a class="lightbox" href="images\gallery\joshtalksphilip.jpg">
                     <img src="images\gallery\joshtalksphilip.jpg" alt="Bridge">
                 </a>
-            </div><div class="col-sm-12 col-md-4">
+            </div><div class="col-sm-12 col-md-4" style="padding-bottom:15px;">
                 <a class="lightbox" href="images\gallery\prize.jpg">
                     <img src="images\gallery\prize.jpg" alt="Bridge">
                 </a>
-            </div><div class="col-sm-12 col-md-4">
+            </div><div class="col-sm-12 col-md-4" style="padding-bottom:15px;">
                 <a class="lightbox" href="images\gallery\ravi.jpg">
                     <img src="images\gallery\ravi.jpg" alt="Bridge">
                 </a>
-            </div><div class="col-sm-12 col-md-4">
+            </div><div class="col-sm-12 col-md-4" style="padding-bottom:15px;">
                 <a class="lightbox" href="images\gallery\sriram_josh.jpg">
                     <img src="images\gallery\sriram_josh.jpg" alt="Bridge">
                 </a>
-            </div><div class="col-sm-12 col-md-4">
+            </div><div class="col-sm-12 col-md-4" style="padding-bottom:15px;">
                 <a class="lightbox" href="images\gallery\sriram_mou.jpg">
                     <img src="images\gallery\sriram_mou.jpg" alt="Bridge">
                 </a>
-            </div><div class="col-sm-12 col-md-4">
+            </div><div class="col-sm-12 col-md-4" style="padding-bottom:15px;">
                 <a class="lightbox" href="images\gallery\sriram_puthiyathalamurai.jpg">
                     <img src="images\gallery\sriram_puthiyathalamurai.jpg" alt="Bridge">
                 </a>
-            </div><div class="col-sm-12 col-md-4">
+            </div><div class="col-sm-12 col-md-4" style="padding-bottom:15px;">
                 <a class="lightbox" href="images\gallery\sriramiidl.jpg">
                     <img src="images\gallery\sriramiidl.jpg" alt="Bridge">
                 </a>
-            </div><div class="col-sm-12 col-md-4">
+            </div><div class="col-sm-12 col-md-4" style="padding-bottom:15px;">
                 <a class="lightbox" href="images\gallery\startap.jpg">
                     <img src="images\gallery\startap.jpg" alt="Bridge">
                 </a>
-            </div><div class="col-sm-12 col-md-4">
+            </div><div class="col-sm-12 col-md-4" style="padding-bottom:15px;">
                 <a class="lightbox" href="images\gallery\team_new.jpg">
                     <img src="images\gallery\team_new.jpg" alt="Bridge">
                 </a>
-            </div><div class="col-sm-12 col-md-4">
+            </div><div class="col-sm-12 col-md-4" style="padding-bottom:15px;">
                 <a class="lightbox" href="images\gallery\team_old.jpg">
                     <img src="images\gallery\team_old.jpg" alt="Bridge">
                 </a>
             </div>
-            
+
 
         </div>
 
